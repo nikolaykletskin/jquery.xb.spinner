@@ -49,7 +49,7 @@
             max: null, // максимальное значение
             button: {
                 element: '<div/>',
-                class: 'spinner__btn btn btn_g-blue'
+                class: 'spinner__btn'
             },
             downButton: {
                 class: 'spinner__btn_down',

@@ -1,0 +1,13 @@
+{
+  "name": "xb.spinner",
+  "homepage": "https://github.com/nikolaykletskin/jquery.xb.spinner",
+  "authors": [
+    "Nikolay Kletskin <femalemoustache@gmail.com>"
+  ],
+  "description": "jQuery spinner plugin",
+  "main": "",
+  "license": "MIT",
+  "dependencies": {
+    "jquery": "^3.1.1"
+  }
+}

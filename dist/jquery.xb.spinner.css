@@ -1,9 +1,9 @@
-.spinner-btn {
+.spinner__btn {
     float: left;
     background-color: #0000FF;
     color: #FFFFFF;
     padding: 5px;
 }
-.spinner-input {
+.spinner__count {
     float: left;
 }

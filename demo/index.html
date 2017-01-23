@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Xb.Spinner Example</title>
+    <script src="../bower_components/jquery/dist/jquery.min.js"></script>
+    <script src="../dist/jquery.xb.spinner.js"></script>
+    <link rel="stylesheet" href="../dist/jquery.xb.spinner.css">
+    <script>
+        $(function() {
+            $('#amount').spinner({
+                downButton: {
+                    content: '-'
+                },
+                upButton: {
+                    content: '+'
+                }
+            });
+        });
+    </script>
+</head>
+<body>
+<input id="amount" type="number" value="0">
+</body>
+</html>
