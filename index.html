@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Xb.Spinner Example</title>
+    <script src="jquery-3.1.1.min.js"></script>
+    <script src="jquery.xb.spinner.js"></script>
+    <link rel="stylesheet" href="jquery.xb.spinner.css">
+    <script>
+        $(function() {
+            $('#amount').spinner({
+                step: 1,
+                min: 0,
+                max: 50,
+            });
+        });
+    </script>
+</head>
+<body>
+<input id="amount" type="text" value="0">
+</body>
+</html>
