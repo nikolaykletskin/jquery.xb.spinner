@@ -8,18 +8,41 @@
     <link rel="stylesheet" href="../dist/jquery.xb.spinner.css">
     <script>
         $(function() {
-            $('#amount').spinner({
+            $.spinner.setDefaults({
+                button: {
+                    className: 'spinner__btn b_blue'
+                }
+            });
+
+            $('#default').spinner();
+
+            $('#custom').spinner({
+                step: 0.25,
+                significantDigits: 2,
                 downButton: {
-                    content: '-'
+                    content: 'dec'
                 },
                 upButton: {
-                    content: '+'
+                    content: 'inc'
                 }
             });
         });
     </script>
+    <style>
+        .clear {
+            clear:both;
+        }
+    </style>
 </head>
 <body>
-<input id="amount" type="number" value="0">
+<div class="clear">
+    <h3>Default Usage</h3>
+    <input id="default" type="number" value="0">
+</div>
+<div class="clear">
+    <h3>Customized Step, Significant Digits and Buttons Content</h3>
+    <input id="custom" type="number" value="0">
+</div>
+
 </body>
 </html>
