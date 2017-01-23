@@ -1,1 +1,1 @@
-# jquery.xb.spinner
+# jQuery spinner plugin
